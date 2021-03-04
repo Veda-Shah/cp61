@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+
+}
+
+.underline {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+}
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
