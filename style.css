@@ -1,30 +1,35 @@
-body {
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container {
     text-align: center;
-
 }
 
-.underline {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
+
+#myCarousel {
+    background-color: lawngreen;
 }
 
-#apps {
-    width: 100%;
-    height: 800px;
-    background-color: coral;
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
 }
 
-#games {
-    width: 100%;
-    height: 800px;
-    background-color: aqua;
-}
-img {
-    transition: transform .2s;
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
 }
 
-img:hover {
-    transform: scale(0.9);
+#myCarouse2 {
+    background-color: #b5d0d4;
+}
+
+#myCarouse2 img {
+    height: 300px;
+    margin-top: 35px;
 }
